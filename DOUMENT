@@ -1,0 +1,83 @@
+
+
+Employee Management System Documentation
+
+1. Introduction
+
+1.1 Purpose
+The purpose of this document is to provide comprehensive documentation for the Employee Management System developed using Tkinter and SQLite.
+1.2 Scope
+The system is designed to manage employee records efficiently, allowing users to add, update, and delete employee details. It provides a graphical user interface built with Tkinter and utilizes SQLite for database operations.
+
+2. System Overview
+
+2.1 Features
+- Add new employee records
+- Update existing employee details
+- Delete employee records
+- Display a table of all employees
+- Retrieve and display details of a selected employee
+
+2.2 Technologies Used
+- Tkinter: Python's de facto standard GUI (Graphical User Interface) package.
+- SQLite: A lightweight, file-based relational database management system.
+
+3. Installation
+
+3.1 Requirements
+- Python (3.x recommended)
+- Tkinter library (usually included with Python)
+- SQLite3 (usually included with Python)
+3.2 Installation Steps
+1. Clone the repository or download the project files.
+2. Ensure Python is installed.
+3. Run the application using `python your_script_name.py` in the terminal.
+
+4. User Interface
+4.1 Main Window
+- The main window displays employee details entry fields.
+- Users can enter employee information such as name, age, date of joining, etc.
+
+4.2 Buttons
+- Add Details: Adds a new employee record.
+- Update Details: Updates the selected employee's details.
+- Delete Details: Deletes the selected employee's record.
+- Clear Details: Clears all input fields.
+
+ 4.3 Table
+- The table displays all employee records.
+- Users can click on a row to select and view the details of a specific employee.
+
+ 5. Database
+
+ 5.1 Database Structure
+- The system uses SQLite to store employee records.
+- The database has a table named `employees` with fields: ID, Name, Age, D.O.J, Email, Gender, Contact, and Address.
+
+ 6. Functions
+
+ 6.1 `add_employee`
+- Adds a new employee to the database.
+- Validates input fields before adding.
+
+ 6.2 `update_employee`
+- Updates the details of an existing employee.
+- Validates input fields before updating.
+
+ 6.3 `delete_employee`
+- Deletes the selected employee's record.
+
+ 6.4 `clearAll`
+- Clears all input fields.
+
+ 6.5 `getData`
+- Retrieves data from the selected row in the table.
+
+6.6 `displayAll`
+- Populates the table with all employee records.
+
+ 7. Conclusion
+
+ 7.1 Summary
+The Employee Management System provides a user-friendly interface for managing employee records. It incorporates Tkinter for the GUI and SQLite for data storage, ensuring simplicity and efficiency.
+
